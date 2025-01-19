@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+}
+
+.searchCategory{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.userCategory ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.header .search{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-grow: 1;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.header .search input{
+    all: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.category{
+    padding: 5px 0;
+}
+
+.category ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.category ul li{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.sales_section {
+    position: relative;
+}
+
+.sales_section .sale-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sales_section .detail{
+    border: 1px solid;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 450px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.recommend{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.recommend .courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.courses .course{
+    flex-basis: 300px;
+}
+
+.course img{
+    width: 100%;
+    height: 100%;
+}
+
+.course .price span{
+    text-decoration: line-through;
+}
+
+.topic_recommend{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.topic_recommend ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.topic_recommend h2{
+    margin-bottom: 10px;
+}
+
+.topic_recommend ul li{
+    padding: 10px;
+    border: 1px solid;
+    flex-basis: 300px;
+}
+
+.most_popular{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.most_popular h2{
+    margin-bottom: 10px;
+}
+
+.most_popular .courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.most_popular .course{
+    flex-basis: 300px;
+}
+
+.most_popular .course .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    padding: 30px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer .footer_content{
+    display: flex;
+    gap: 50px;
+}
+.footer .copyright{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
